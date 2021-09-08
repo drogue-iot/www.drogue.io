@@ -36,18 +36,13 @@ header {
 }
 
 .logo {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 32px;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 60px;
   color: var(--primary-text-color);
-  display: flex;
+  //display: flex;
   font-weight: bold;
   align-items: center;
   margin: 0 40px;
-
-  img {
-    height: 42px;
-    margin: 0 25px;
-  }
 }
 
 .nav-item {

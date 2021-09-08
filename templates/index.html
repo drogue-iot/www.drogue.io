@@ -9,6 +9,9 @@
     {% include "_variables.html" %}
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/normalize.css">
     <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
     {% block head %}
@@ -31,24 +34,9 @@
                 IoT for the kicks
             </h1>
             <h3 class="title-text">
-                <b>Drogue IoT</b> give you the tools to create safe and efficient IoT solutions.  From the device on up to the cloud.
+                <b>Drogue IoT</b> give you the tools to create safe, efficient and scalable IoT solutions.  From the device on up to the cloud.
             </h3>
-            <!--
-            <div>
-                <p class="text">Drogue Device</p>
-                <a class="github-button" href="https://github.com/drogue-iot/drogue-device" data-size="large" data-show-count="true"
-                   aria-label="Star drogue-iot/drogue-device on GitHub">Star</a>
-                <a class="github-button" href="https://github.com/drogue-iot/drogue-device/fork" data-size="large"
-                   data-show-count="true" aria-label="Fork drogue-iot/drogue-device on GitHub">Fork</a>
-            </div>
-            <div>
-                <p class="text">Drogue Cloud</p>
-                <a class="github-button" href="https://github.com/drogue-iot/drogue-cloud" data-size="large" data-show-count="true"
-                   aria-label="Star drogue-iot/drogue-cloud on GitHub">Star</a>
-                <a class="github-button" href="https://github.com/drogue-iot/drogue-cloud/fork" data-size="large"
-                   data-show-count="true" aria-label="Fork drogue-iot/drogue-cloud on GitHub">Fork</a>
-            </div>
-            -->
+
         </section>
 
         <div class="explore-more text"
@@ -103,7 +91,7 @@
 
         <div class="content text">
             {% block content %}
-            <div id="features" class="heading-text">Overview</div>
+            <div id="features" class="heading-text"> </div>
             {{ section.content | safe }}
             {% endblock content %}
         </div>
@@ -115,7 +103,7 @@
     {% block footer %}
     <footer>
         <small class="subtext">
-            <a href="https://huhu.io">Huhu.io</a> © 2021
+            <a href="https://drogue.io">Drogue IoT</a> © 2021
         </small>
     </footer>
     {% endblock footer %}
