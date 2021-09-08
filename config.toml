@@ -22,4 +22,5 @@ juice_extra_menu = [
     { title = "Blog", link = "https://blog.drogue.io"},
     { title = "Github", link = "https://github.com/drogue-iot"},
 ]
+
 repository_url = "https://github.com/drogue-iot"
