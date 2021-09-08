@@ -16,7 +16,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 juice_logo_name = "Drogue IoT"
-juice_logo_path = "logo.svg"
+juice_logo_path = "hat.png"
 juice_extra_menu = [
     { title = "Documentation", link = "https://book.drogue.io"},
     { title = "Blog", link = "https://blog.drogue.io"},
