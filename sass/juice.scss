@@ -11,34 +11,40 @@ body {
 
 .feature_wrapper {
   display: flex;
+  flex:wrap;
+  flex-flow: row wrap;
+
+  max-width: 100%;
   align-items: top;
   padding-top: 50px;
   text-align: center;
   justify-content: space-evenly;
+  padding: 40px 40px;
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
-  overflow-x: hidden;
 }
 
-.feature_item_left {
-    align-items: center;
-    vertical-align: top;
-    float: left;
-    max-width: 20%;
+.feature_wrapper > div
+{
+    flex-grow: 4;
 }
 
-.feature_item_center {
-    align-items: center;
-    vertical-align: top;
-    float: center;
-    max-width: 20%;
+
+.feature_item {
+  text-align: center;
+  max-width: 400px;
+//  padding: 0 20px;
 }
 
-.feature_item_right {
+.feature_item_icon {
+    max-width: 42px;
+}
+
+.feature_text {
     align-items: center;
-    vertical-align: top;
-    float: right;
-    max-width: 20%;
+    text-align: center;
+//    max-width: 80%;
+//    padding: 0 10%;
 }
 
 a {
