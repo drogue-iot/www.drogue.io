@@ -104,14 +104,18 @@ header {
 }
 
 .explore-more {
-  position: absolute;
-  bottom: 0px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  //height: 70vh;
+  padding-top: 20px;
+  padding: 40px 40px;
 }
 
 main {
   display: flex;
-  padding: 50px 100px;
+  padding: 100px 100px;
 
   .toc {
     max-width: 260px;
