@@ -2,16 +2,27 @@
   font-family: "Fira Sans", sans-serif;
   font-size: 32px;
   font-weight: 600;
+  border-left: none;
   padding: 10px 0 25px 0;
   color: var(--secondary-text-color);
 }
 
-h1, .title-text {
+h1 {
   font-family: "Fira Sans", sans-serif;
   font-size: 25px;
   font-weight: 500;
   color: var(--secondary-text-color);
   border-left: var(--primary-color) 8px solid;
+  padding-left: 10px;
+}
+
+.title-text {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  border-left: none;
+  //border-left: var(--primary-color) 8px solid;
   padding-left: 10px;
 }
 

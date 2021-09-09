@@ -21,14 +21,14 @@
 <body>
     {% block header %}
 
-    <header class="pos-absolute" style="background-color: #8cc73f">
+    <header style="background-color: #8cc73f">
         {{ macros::render_header() }}
     </header>
 
     <div class="hero">
         {% block hero %}
         <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <img class="hero-image" style="max-width: 30%" src="{{ get_url(path="rodney.svg") }}">
+        <img class="hero-image" style="max-width: 20%" src="{{ get_url(path="rodney.svg") }}">
         <section class="text-center">
             <h1 class="heading-text" style="font-size: 50px">
                 IoT for the kicks
@@ -36,13 +36,7 @@
             <h3 class="title-text">
                 <b>Drogue IoT</b> give you the tools to create safe, efficient and scalable IoT solutions.  From the device on up to the cloud.
             </h3>
-
         </section>
-
-        <div class="explore-more text"
-            onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
-            Explore More ⇩
-        </div>
         <style>
             .hero section {
                 padding: 0 5rem;
@@ -58,6 +52,35 @@
             }
         </style>
         {% endblock hero %}
+    </div>
+
+    <div class="feature_wrapper text">
+        <div class="feature_item_left">
+            <img src="lock-closed-outline.svg" style="max-width: 20%" />
+            <h4>Secure connectivity</h4>
+            <p>Secure connectivity for massive number of devices<p>
+        </div>
+        <div class="feature_item_center">
+            <img src="hardware-chip-outline.svg" style="max-width: 20%" />
+            <h4>Microcontroller firmware</h4>
+            <p>Write safe and efficient firmware using Rust</p>
+        </div>
+        <div class="feature_item_center">
+            <img src="cog-outline.svg" style="max-width: 20%" />
+            <h4>Restful APIs</h4>
+            <p>Manage your fleet of devices using RESTful APIs and fine grained access control</p>
+        </div>
+        <div class="feature_item_right">
+            <img src="extension-puzzle-outline.svg" style="max-width: 20%" />
+            <h4>Integrations</h4>
+            <p>Integrates with Apache Kafka and CloudEvents and third party providers</p>
+        </div>
+
+        <div class="explore-more text"
+            onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+            Explore More ⇩
+        </div>
+
     </div>
 
     {% endblock header %}

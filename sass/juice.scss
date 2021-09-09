@@ -9,6 +9,38 @@ body {
   background-color: var(--secondary-color);
 }
 
+.feature_wrapper {
+  display: flex;
+  align-items: top;
+  padding-top: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+  color: var(--secondary-text-color);
+  overflow-x: hidden;
+}
+
+.feature_item_left {
+    align-items: center;
+    vertical-align: top;
+    float: left;
+    max-width: 20%;
+}
+
+.feature_item_center {
+    align-items: center;
+    vertical-align: top;
+    float: center;
+    max-width: 20%;
+}
+
+.feature_item_right {
+    align-items: center;
+    vertical-align: top;
+    float: right;
+    max-width: 20%;
+}
+
 a {
   text-decoration: none;
 }
@@ -61,17 +93,20 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 100vh;
+  //height: 70vh;
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
   overflow-x: hidden;
-  padding: 0 40px;
+  padding-top: 20px;
+  padding: 40px 40px;
 
-  .explore-more {
-    position: absolute;
-    bottom: 20px;
-    cursor: pointer;
-  }
+
+}
+
+.explore-more {
+  position: absolute;
+  bottom: 0px;
+  cursor: pointer;
 }
 
 main {
