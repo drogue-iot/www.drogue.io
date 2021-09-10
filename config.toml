@@ -20,7 +20,8 @@ juice_logo_path = "hat.png"
 juice_extra_menu = [
     { title = "Documentation", link = "https://book.drogue.io"},
     { title = "Blog", link = "https://blog.drogue.io"},
-    { title = "Github", link = "https://github.com/drogue-iot"},
+    { title = "GitHub", link = "https://github.com/drogue-iot"},
+    { title = "Chat", link = "https://matrix.to/#/#drogue-iot:matrix.org"},
 ]
 
 repository_url = "https://github.com/drogue-iot"
