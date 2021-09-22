@@ -16,6 +16,18 @@
     <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
     {% block head %}
     {% endblock head %}
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Drogue IoT",
+            "legalName": "Drogue IoT",
+            "url": "https://drogue.io",
+            "logo": "https://drogue.io/rodney.svg"
+        }
+    </script>
+
 </head>
 
 <body>
@@ -84,10 +96,10 @@
             </div>
         </div>
 
-        
+
     </div>
 
-    
+
 
     {% endblock header %}
     <div class="explore-more text"
