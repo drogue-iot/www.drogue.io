@@ -34,12 +34,13 @@ Go to our [documentation](https://book.drogue.io/drogue-cloud/dev/index.html) to
 
 # Device
 
-In a world without memory management or operating system it is more important than ever to avoid memory corruption and undefined behavior. With Drogue Device, you can write safe, composable and connected embedded applications. 
+Drogue Device is a framework for writing safe and efficient applications on microcontroller type of systems.
 
-* Built using [rust](https://www.rust-lang.org), an efficient, memory safe and thread safe programming language.
-* Offers built-in drivers for internet connectivity, such as WiFi and LoRaWAN.
+* Robust: Device is built using [Rust](https://www.rust-lang.org), an efficient, memory safe and thread safe programming language.
+* Efficient: Drogue Device integrates with [embassy](https://github.com/embassy-rs/embassy), the embedded async project, to deliver a fast and small runtime.
+* Composable: Drogue Device provides an Actor-based programming model for writing composable applications.
 
-Go to our [documentation](https://book.drogue.io/drogue-device/dev/index.html) to get started with Drogue Cloud, or join the community on [GitHub](https://github.com/drogue-iot/drogue-device).
+Go to our [documentation](https://book.drogue.io/drogue-device/dev/index.html) to get started with Drogue Device, or join the community on [GitHub](https://github.com/drogue-iot/drogue-device).
 
 # Getting started
 
