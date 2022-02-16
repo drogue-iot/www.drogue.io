@@ -49,7 +49,7 @@ We try to make is as easy as possible to get you started:
 * **[Public sandbox](https://sandbox.drogue.cloud)** – A public sandbox to let you try out the cloud side services without the need to install them manually. Just sign up with your GitHub account, and try it out.
 * **[Buy a device](https://microbit.org/buy/?version=microbitV2)** – The micro:bit v2 is easy to get, and easy to use. It offers a few sensors and is supported by Rust and Drogue IoT out of the box. Just be sure to get a <u>**v2**</u>!
 * **[Workshops](https://book.drogue.io/drogue-workshops/index.html)** – A set of workshops, that walk you through more complex scenarios step-by-step. Different workshops focus on different aspects and technologies.
-* **[Meet the code](https://github.io/drogue-iot)** – Check out the code on our GitHub organization.
+* **[Meet the code](https://github.com/drogue-iot)** – Check out the code on our GitHub organization.
 * **[Meet the people](https://matrix.to/#/#drogue-iot:matrix.org)** – Get in contact with us in our Matrix channel.
 
 # Open source
