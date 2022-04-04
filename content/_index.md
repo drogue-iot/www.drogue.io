@@ -34,11 +34,12 @@ Go to our [documentation](https://book.drogue.io/drogue-cloud/dev/index.html) to
 
 # Device
 
-Drogue Device is a framework for writing safe and efficient applications on microcontroller type of systems.
+Drogue Device is a distribution of libraries and drivers for building embedded applications in Rust.
 
 * Robust: Device is built using [Rust](https://www.rust-lang.org), an efficient, memory safe and thread safe programming language.
-* Efficient: Drogue Device integrates with [embassy](https://github.com/embassy-rs/embassy), the embedded async project, to deliver a fast and small runtime.
-* Composable: Drogue Device provides an Actor-based programming model for writing composable applications.
+* Efficient: Drogue Device is built on [embassy](https://github.com/embassy-rs/embassy), the embedded async project, to deliver a fast and small runtime.
+* IoT Ready: Drogue Device provides out of the box drivers and examples for WiFi, LoRaWAN and BLE.
+* Composable: Drogue Device provides both an Async task-based and an Actor-based programming model for writing efficient and composable applications.
 
 Go to our [documentation](https://book.drogue.io/drogue-device/dev/index.html) to get started with Drogue Device, or join the community on [GitHub](https://github.com/drogue-iot/drogue-device).
 
