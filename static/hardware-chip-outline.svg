@@ -1,1 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Hardware Chip</title><rect x="80" y="80" width="352" height="352" rx="48" ry="48" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><rect x="144" y="144" width="224" height="224" rx="16" ry="16" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 80V48M336 80V48M176 80V48M256 464v-32M336 464v-32M176 464v-32M432 256h32M432 336h32M432 176h32M48 256h32M48 336h32M48 176h32"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="ionicon"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg3476"
+   sodipodi:docname="hardware-chip-outline.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3480" />
+  <sodipodi:namedview
+     id="namedview3478"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.0058594"
+     inkscape:cx="154.04869"
+     inkscape:cy="254.50438"
+     inkscape:window-width="2160"
+     inkscape:window-height="3803"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3476" />
+  <title
+     id="title3468">Hardware Chip</title>
+  <rect
+     x="80"
+     y="80"
+     width="352"
+     height="352"
+     rx="48"
+     ry="48"
+     fill="none"
+     stroke="currentColor"
+     stroke-linejoin="round"
+     stroke-width="32"
+     id="rect3470"
+     style="stroke:#fffbe5;stroke-opacity:1" />
+  <rect
+     x="144"
+     y="144"
+     width="224"
+     height="224"
+     rx="16"
+     ry="16"
+     fill="none"
+     stroke="currentColor"
+     stroke-linejoin="round"
+     stroke-width="32"
+     id="rect3472"
+     style="stroke:#fffbe5;stroke-opacity:1" />
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="32"
+     d="M256 80V48M336 80V48M176 80V48M256 464v-32M336 464v-32M176 464v-32M432 256h32M432 336h32M432 176h32M48 256h32M48 336h32M48 176h32"
+     id="path3474"
+     style="stroke:#fffbe5;stroke-opacity:1" />
+</svg>
