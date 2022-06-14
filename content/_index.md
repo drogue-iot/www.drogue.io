@@ -19,7 +19,7 @@ Drogue Cloud is an IoT platform with a connectivity layer for forwarding telemet
 <div class="feature_column secondary">
 <h1>Build safe and efficient firmware</h1>
 <div class="column_text">
-Drogue Device is a distribution of libraries and drivers for building IoT-ready applications. It is built using <a href="https://www.rust-lang.org">Rust</a>, an efficient, memory safe and thread safe programming language and
+Drogue Device is a distribution of tools and examples for building IoT-ready applications. It is built using <a href="https://www.rust-lang.org">Rust</a>, an efficient, memory safe and thread safe programming language and
 <a href="https://embassy.dev">Embassy</a>, a fast and small runtime for embedded devices.
 </div>
 
