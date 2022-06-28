@@ -47,4 +47,18 @@ Drogue IoT is *open source*, and all components are licensed under the Apache 2.
 This means, that you can participate in the development process. Everyone is welcome! Contributions come in various
 ways, not only code.
 
+<h1>Who uses Drogue IoT</h1>
+
+<div class="feature_overview">
+<div class="feature_wrapper evenly text">
+
+<div class="feature_item">
+<a href="https://www.redhat.com"><img src="red_hat_logo.png" alt="Red Hat Logo" class="feature_using" /></a>
+</div>
+</div>
+</div>
+
+If your company uses Drogue IoT and want to be listed, [reach out to us](https://matrix.to/#/#drogue-iot:matrix.org).
+
+
 </div>
