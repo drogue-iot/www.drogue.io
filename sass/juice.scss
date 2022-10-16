@@ -113,20 +113,23 @@ body {
 }
 
 .feature_column {
+  vertical-align: middle;
 }
 
 .feature_column_left {
+  vertical-align: middle;
   text-align: left;
   margin-right: 10px;
   width: 45%;
-  float: left,
+  display: inline-block;
 }
 
 .feature_column_right {
+  vertical-align: middle;
   text-align: right;
   margin-left: 10px;
   width: 45%;
-  float: left,
+  display: inline-block;
 }
 
 .feature_using {
