@@ -11,18 +11,22 @@ body {
 
 .mediumbutton {
   display: inline-block;
-  width: 100%;
+  max-width: 60%;
   border: none;
   color: var(--primary-text-color);
   background-color: var(--primary-color);
-  padding: 14px 28px;
+  padding: 14px 18px;
   font-family: "Fira Sans", sans-serif;
-  font-size: 18px;
+  font-size: 14pt;
   font-weight: bold;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.gettingstartedbtn {
+  margin-right: 10px;
 }
 
 .bigbutton {
@@ -31,24 +35,23 @@ body {
   border: none;
   color: var(--primary-text-color);
   background-color: var(--primary-color);
-  padding: 14px 28px;
+  padding: 14px 18px;
+  padding-right: 10px;
   font-family: "Fira Sans", sans-serif;
-  font-size: 32px;
+  font-size: 20pt;
   font-weight: bold;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .bigbutton:hover {
-  color: var(--primary-color);
-  background-color: var(--primary-text-color);
+  opacity: 0.5;
 }
 
 .mediumbutton:hover {
-  color: var(--primary-color);
-  background-color: var(--primary-text-color);
+  opacity: 0.5;
 }
 
 .features_heading {
@@ -71,7 +74,6 @@ body {
 
 .column_button {
   bottom: 0px;
-  position: absolute;
 }
 
 .feature_overview {
@@ -104,8 +106,6 @@ body {
     flex-grow: 4;
 }
 
-
-
 .feature_item {
   text-align: center;
   max-width: 300px;
@@ -113,12 +113,20 @@ body {
 }
 
 .feature_column {
+}
+
+.feature_column_left {
   text-align: left;
-  min-width: 300px;
-  max-width: 40%;
-  padding: 10px 0px;
-  padding-bottom: 100px;
-  position: relative;
+  margin-right: 10px;
+  width: 45%;
+  float: left,
+}
+
+.feature_column_right {
+  text-align: right;
+  margin-left: 10px;
+  width: 45%;
+  float: left,
 }
 
 .feature_using {
@@ -175,6 +183,7 @@ header {
   display: flex;
   align-items: right;
   max-width: 100%;
+  min-width: 400px;
   text-align: right;
   justify-content: right;
   overflow-x: auto;

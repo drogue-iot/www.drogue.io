@@ -3,24 +3,47 @@ title = "Drogue IoT"
 +++
 
 
-<div class="feature_wrapper edges text secondary">
+<div class="feature_column">
 
-<div class="feature_column secondary">
-<h1>Manage devices and process telemetry data</h1>
-<div class="column_text">
-Drogue Cloud is an IoT platform with a connectivity layer for forwarding telemetry data safely from devices to applications, and commands back to devices. Manage devices and their credentials using RESTful APIs and and devices. Consume sensor data and control devices in your application using MQTT, WebSockets, HTTP or Kafka.
+<div class="feature_column_left secondary">
+<img style="max-width: 100%;" src="overview.svg" alt="Drogue Cloud overview" />
+</div>
+
+<div class="feature_column_right secondary">
+<h1 style="text-align: left;">The next generation IoT platform</h1>
+<div class="column_text text">
+Drogue Cloud is an IoT platform that you can use to:
+
+* Connect devices using industry standard protocols.
+* Manage devices and their credentials using RESTful APIs and and devices.
+* Consume telemetry as Cloud Events using MQTT, WebSockets, Kafka or serverless endpoints.
+* Represent device state as a digital twin in the cloud.
+* Schedule firmware updates to a fleet of devices.
 </div>
 
 <div class="column_button">
 <a href="https://book.drogue.io/drogue-cloud/dev/index.html"><button class="mediumbutton">Learn more about Drogue Cloud</button></a>
 </div>
+</div>
+
 
 </div>
-<div class="feature_column secondary">
-<h1>Build safe and efficient firmware</h1>
-<div class="column_text">
-Drogue Device is a distribution of tools and examples for building IoT-ready applications. It is built using <a href="https://www.rust-lang.org">Rust</a>, an efficient, memory safe and thread safe programming language and
-<a href="https://embassy.dev">Embassy</a>, a fast and small runtime for embedded devices.
+
+<div class="feature_column">
+
+
+
+<div style="padding-top: 50px;">
+</div>
+
+<div class="feature_column_left secondary">
+<h1>Building safe and efficient firmware</h1>
+<div class="column_text text">
+Drogue Device is a distribution of tools and examples for building embedded IoT applications.
+
+* Built with <a href="https://www.rust-lang.org">Rust</a>, an efficient, memory safe and thread safe programming language.
+* Built on <a href="https://embassy.dev">Embassy</a>, a fast and small runtime and hardware abstraction layer for embedded devices.
+* Examples showing integration with Drogue Cloud.
 </div>
 
 <div class="column_button">
@@ -28,9 +51,14 @@ Drogue Device is a distribution of tools and examples for building IoT-ready app
 </div>
 </div>
 
+<div class="feature_column_right secondary">
+<img style="max-height: 400px; position: relative;" src="board.png" alt="Device board" />
+</div>
+
 </div>
 
 <div class="bodycontent text">
+
 <h1>Getting started</h1>
 We try to make is as easy as possible to get you started:
 
