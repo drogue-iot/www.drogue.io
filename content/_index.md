@@ -31,7 +31,7 @@ Drogue Cloud is an IoT platform that you can use to:
 
 <div class="feature_column">
 
-<div style="padding-top: 50px;">
+<div style="padding-top: 200px;">
 </div>
 
 <div class="feature_column_left secondary">
@@ -65,6 +65,7 @@ We try to make is as easy as possible to get you started:
 * **[Workshops](https://book.drogue.io/drogue-workshops/index.html)** – A set of workshops, that walk you through more complex scenarios step-by-step. Different workshops focus on different aspects and technologies.
 * **[Meet the code](https://github.com/drogue-iot)** – Check out the code on our GitHub organization.
 * **[Meet the people](https://matrix.to/#/#drogue-iot:matrix.org)** – Get in contact with us in our Matrix channel.
+* **[Join our community calls](https://hackmd.io/@drogue/S1-3dZhIu)** - Bi-weekly community calls where you can meet the Drogue IoT community.
 
 <h1>Open Source</h1>
 
