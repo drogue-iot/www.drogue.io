@@ -31,7 +31,7 @@ Drogue Cloud is an IoT platform that you can use to:
 
 <div class="feature_column">
 
-<div style="padding-top: 200px;">
+<div style="padding-top: 100px;">
 </div>
 
 <div class="feature_column_left secondary">
