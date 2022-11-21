@@ -15,7 +15,7 @@ title = "Drogue IoT"
 Drogue Cloud is an IoT platform that you can use to:
 
 * Connect devices using industry standard protocols.
-* Manage devices and their credentials using RESTful APIs and and devices.
+* Manage device credentials using RESTful APIs.
 * Consume telemetry as Cloud Events using MQTT, WebSockets, Kafka or serverless endpoints.
 * Represent device state as a digital twin in the cloud.
 * Schedule firmware updates to a fleet of devices.
